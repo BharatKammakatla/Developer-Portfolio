@@ -106,7 +106,7 @@ const greeting = {
 };
 
 Similarly, you can also update other sections like socialMediaLinks, skillsSection, workExperience, projects, etc.
-
+```
 
 #### Using Emojis
 
