@@ -53,7 +53,7 @@
   text-overflow: ellipsis;
   color: rgb(36, 41, 46);
   margin-bottom: 0.75rem;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: -0.5px;
   overflow: hidden;
@@ -67,6 +67,6 @@
 .repo-description {
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }

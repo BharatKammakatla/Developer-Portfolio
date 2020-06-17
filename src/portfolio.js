@@ -30,7 +30,8 @@ const skillsSection = {
   skills: [
     emoji("⚡ Designing and developing Test Automation frameworks using Python and Java"),
     emoji("⚡ End to End automation executions"),
-    emoji("⚡ Working on test automation tools like Selenium, Appium, UFT, Seetest mobile cloud administration, etc")
+    emoji("⚡ Working on test automation tools like Selenium, Appium, UFT, Seetest mobile cloud administration, etc"),
+    emoji("⚡ Building predictive models to extract insights and make decisions out of data")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -80,7 +81,7 @@ const techStack = {
     },
     {
       Stack: "Data Science",  //Insert stack or technology you have experience in
-      progressPercentage: "60%"  //Insert relative proficiency in percentage
+      progressPercentage: "70%"  //Insert relative proficiency in percentage
     },
     {
       Stack: "Programming",
@@ -198,14 +199,14 @@ const blogSection = {
 
   blogs: [
     {
+      url: "https://blog.bharatkammakatla.com/face-expression-recognition-using-keras-and-cnns-ckbevmufo0195dis1dfs10kt1",
+      title: "Building a Machine Learning model to detect human emotions",
+      description: "Are you interested to know how machines detect human emotions? If so, check out here !"
+    },
+    {
       url: "https://medium.com/@bharatkammakatla/basic-end-to-end-scikit-learn-workflow-cd9e9a50491b?source=friends_link&sk=b828ac262c172abd7508efcbd00e5bd3",
       title: "Basic End-to-End Scikit-Learn workflow",
       description: "Do you want to know how a basic end-to-end scikit-learn workflow is implemented ? If so, check out here !"
-    },
-    {
-      url: "https://medium.com/@bharatkammakatla/learn-regex-basics-64cd56b07061?source=friends_link&sk=6862458c23c44e1e0c09d730dd90737d",
-      title: "Learn Regex - The Simple Way",
-      description: "Looking for a place to learn regex. Headover to here and find the cool site from where i have learnt !"
     }
   ]
 };
@@ -218,12 +219,12 @@ const talkSection = {
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/",
+      title: "your title",
+      subtitle: "your subtitle",
+      slides_url: "Your slides url here",
+      event_url: "your event url",
       image:
-        "https://scontent.fkhi6-1.fna.fbcdn.net/v/t1.0-9/76714032_1730516240415559_1293494289556307968_o.jpg?_nc_cat=103&_nc_ohc=s5f81rdZd6wAQmqUa52YQBA21MjVOy7e-HN9jI7MspRDC-v5ahEouyInQ&_nc_ht=scontent.fkhi6-1.fna&oh=c29141a9a0de7ff2011a8191f5475a78&oe=5E83127C"
+        "image url"
     }
   ]
 };
@@ -235,7 +236,7 @@ const podcastSection = {
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"]
+  podcast: ["Paste your podcast url here"]
 };
 
 const contactInfo = {
