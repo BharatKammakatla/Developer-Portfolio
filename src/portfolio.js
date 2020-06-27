@@ -251,6 +251,64 @@ const contactInfo = {
 const twitterDetails = {
 
   userName : "twitter"//Replace "twitter" with your twitter username without @
-  
 };
-export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+
+// Your certifications
+const certifications = {
+	certifications: [
+		{
+			title: "ML and DS",
+			subtitle: "- Andrei Neagoie",
+			logo_path: "zero-to-mastery.png",
+			certificate_link:
+				"https://www.udemy.com/certificate/UC-fd118b7d-7436-442c-a7f8-5077c432d596/",
+			alt_name: "Zero To Mastery",
+			color_code: "#FFFDDD"
+		},
+		{
+			title: "Cloud Admin & Automation",
+			subtitle: "- Experitest",
+			logo_path: "seetest-logo.png",
+			certificate_link:
+				"https://drive.google.com/file/d/1qhh1ZUBB2VPrOaT6bNgiJ5Y2sHmCjvMg/view?usp=drivesdk",
+			alt_name: "Experitest",
+			color_code: "#F0FFDD"
+		},
+		{
+			title: "Selenium",
+			subtitle: "- Vskills",
+			logo_path: "vskills-logo.png",
+			certificate_link:
+				"https://www.vskills.in/certification/40215-certified-selenium-professional-bharat-babu-kammakatla",
+			alt_name: "Vskills",
+			color_code: "#FFF4F4"
+		},
+		{
+			title: "Python",
+			subtitle: "- Jose Portilla",
+			logo_path: "pierian-data-logo.png",
+			certificate_link:
+				"https://www.udemy.com/certificate/UC-a80d6e7c-e753-421d-bcee-5a7bc1769f28/",
+			alt_name: "Pierian-Data",
+			color_code: "#FEF6E6"
+		}
+	]
+};
+  
+
+export { 
+  greeting, 
+  socialMediaLinks, 
+  skillsSection, 
+  techStack, 
+  workExperiences, 
+  openSource, 
+  bigProjects, 
+  achievementSection, 
+  blogSection, 
+  talkSection, 
+  podcastSection, 
+  contactInfo , 
+  twitterDetails,
+  certifications
+};

@@ -37,6 +37,9 @@ function Header() {
             <a href="#achievements">Achievements</a>
           </li>*/}
           <li>
+            <a href="#certs">Certfications</a>
+          </li>
+          <li>
             <a href="#blogs">Blogs</a>
           </li>
           {/*<li>
