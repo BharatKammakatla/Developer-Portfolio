@@ -255,7 +255,7 @@ const twitterDetails = {
 const certifications = {
 	certifications: [
 		{
-			title: "Machine Learning & Data Science",
+			title: "ML and DS",
 			subtitle: "- Andrei Neagoie",
 			logo_path: "zero-to-mastery.png",
 			certificate_link:
