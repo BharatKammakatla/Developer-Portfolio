@@ -190,6 +190,24 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "aashutoshrathi",
+      "name": "Aashutosh Rathi",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/21199234?v=4",
+      "profile": "http://aashutosh.dev",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "abhishekashyap",
+      "name": "Abhishek Kashyap",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/29458374?v=4",
+      "profile": "https://abhishekashyap.studio/",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
