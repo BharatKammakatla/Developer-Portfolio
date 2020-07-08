@@ -26,7 +26,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What i do",
-  subTitle: "TEST AUTOMATION, DEVELOPEMENT OF MOBILE AND WEB APPS AND LEARNING DATA SCIENCE",
+  subTitle: "Handling all Test Automation activities and exploring Data Science",
   skills: [
     emoji("⚡ Designing and developing Test Automation frameworks using Python and Java"),
     emoji("⚡ End to End automation executions"),
@@ -34,38 +34,96 @@ const skillsSection = {
     emoji("⚡ Building predictive models to extract insights and make decisions out of data")
   ],
 
-/* Make Sure You include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
       skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      fontAwesomeClassname: "logos:python",
+      style: {
+        backgroundColor: "transparent"
+      }
     },
     {
       skillName: "java",
-      fontAwesomeClassname: "fab fa-java"
+      fontAwesomeClassname: "logos:java",
+      style: {
+        backgroundColor: "transparent"
+      }
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "selenium",
+      fontAwesomeClassname: "logos:selenium",
+      style: {
+        backgroundColor: "transparent"
+      }
+    },
+    {
+      skillName: "appium",
+      fontAwesomeClassname: "logos:appium",
+      style: {
+        backgroundColor: "transparent"
+      }
+    },
+    {
+      skillName: "maven",
+      fontAwesomeClassname: "simple-icons:apachemaven",
+      style: {
+        backgroundColor: "transparent",
+        color: "#BF0353"
+      }
     },
     {
       skillName: "git",
-      fontAwesomeClassname: "fab fa-git"
+      fontAwesomeClassname: "logos:git-icon",
+      style: {
+        backgroundColor: "transparent"
+      }
+    },
+    ,
+    {
+      skillName: "github",
+      fontAwesomeClassname: "logos:github-icon",
+      style: {
+        backgroundColor: "transparent"
+      }
     },
     {
       skillName: "jenkins",
-      fontAwesomeClassname: "fab fa-jenkins"
+      fontAwesomeClassname: "simple-icons:jenkins",
+      style: {
+        backgroundColor: "transparent",
+        color: "#34495E"
+      }
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "tensorflow",
+      fontAwesomeClassname: "logos-tensorflow",
+      style: {
+        backgroundColor: "transparent"
+      }
     },
+    {
+      skillName: "keras",
+      fontAwesomeClassname: "simple-icons:keras",
+      style: {
+        backgroundColor: "white",
+        color: "#D00000"
+      }
+    },
+    {
+      skillName: "npm",
+      fontAwesomeClassname: "simple-icons:npm",
+      style: {
+        color: "#CB3837"
+      }
+    },
+    {
+      skillName: "ReactJS",
+      fontAwesomeClassname: "simple-icons:react",
+      style: {
+        color: "#61DAFB"
+      }
+    }
 
   ]
 };
