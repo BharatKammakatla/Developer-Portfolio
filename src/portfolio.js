@@ -118,7 +118,7 @@ const skillsSection = {
       }
     },
     {
-      skillName: "ReactJS",
+      skillName: "reactJS",
       fontAwesomeClassname: "simple-icons:react",
       style: {
         color: "#61DAFB"
