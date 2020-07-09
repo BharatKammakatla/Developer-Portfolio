@@ -26,7 +26,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What i do",
-  subTitle: "Handling all Test Automation activities and exploring Data Science",
+  subTitle: "HANDLING ALL TEST AUTOMATION ACTIVITIES AND EXPLORING DATA SCIENCE",
   skills: [
     emoji("⚡ Designing and developing Test Automation frameworks using Python and Java"),
     emoji("⚡ End to End automation executions"),
