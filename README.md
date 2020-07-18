@@ -13,7 +13,6 @@
 
 
 
-
 Just change `src/portfolio.js` to get your personal portfolio . Feel free to use it as-is or customize it as much as you want.
 
 
@@ -21,6 +20,7 @@ Just change `src/portfolio.js` to get your personal portfolio . Feel free to use
 ✔️ Summary and About me\
 ✔️ Skills\
 ✔️ Projects\
+✔️ Certificates\
 ✔️ Blogs\
 ✔️ Contact me\
 ✔️ Github Profile
@@ -109,7 +109,7 @@ const greeting = {
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
 };
 
-Similarly, you can also update other sections like socialMediaLinks, skillsSection, workExperience, projects, etc.
+Similarly, you can also update other sections like skills, projects, certificates, workExperience, socialMediaLinks, etc.
 ```
 
 #### Using Emojis
