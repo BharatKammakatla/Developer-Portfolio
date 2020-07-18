@@ -3,11 +3,11 @@
 ## A simple, beautiful and responsive portfolio template for Developers!
 
 
-<p align="center">
+<!-- <p align="center">
   <kbd>
-    <img src="BharatKammakatla.gif" width="1024" height="768"></img>
+    <img src="BharatKammakatla.gif width="40" height="40" "></img>
   </kbd>
-</p>
+</p> -->
 
 ![](BharatKammakatla.gif)
 
