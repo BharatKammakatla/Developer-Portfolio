@@ -5,7 +5,7 @@
 
 <p align="center">
   <kbd>
-    <img src="BharatKammakatla.gif width="1024" height="768" "></img>
+    <img src="BharatKammakatla.gif" width="1024" height="768"></img>
   </kbd>
 </p>
 
