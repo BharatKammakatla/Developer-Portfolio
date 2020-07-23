@@ -58,6 +58,13 @@ const skillsSection = {
       }
     },
     {
+      skillName: "cucumber",
+      fontAwesomeClassname: "logos:cucumber",
+      style: {
+        backgroundColor: "transparent"
+      }
+    },
+    {
       skillName: "appium",
       fontAwesomeClassname: "logos:appium",
       style: {
@@ -111,10 +118,10 @@ const skillsSection = {
       }
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "simple-icons:npm",
+      skillName: "flask",
+      fontAwesomeClassname: "simple-icons:flask",
       style: {
-        color: "#CB3837"
+        backgroundColor: "transparent"
       }
     },
     {
