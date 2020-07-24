@@ -86,20 +86,19 @@ const skillsSection = {
         backgroundColor: "transparent"
       }
     },
-    ,
-    {
-      skillName: "github",
-      fontAwesomeClassname: "logos:github-icon",
-      style: {
-        backgroundColor: "transparent"
-      }
-    },
     {
       skillName: "jenkins",
       fontAwesomeClassname: "simple-icons:jenkins",
       style: {
         backgroundColor: "transparent",
         color: "#34495E"
+      }
+    },
+    {
+      skillName: "postgres",
+      fontAwesomeClassname: "logos:postgresql",
+      style: {
+        backgroundColor: "transparent"
       }
     },
     {
