@@ -3,14 +3,11 @@
 ## A simple, beautiful and responsive portfolio template for Developers!
 
 
-<!-- <p align="center">
+<p align="center">
   <kbd>
-    <img src="BharatKammakatla.gif width="40" height="40" "></img>
+    <img src="BharatKammakatla.gif"></img>
   </kbd>
-</p> -->
-
-![](BharatKammakatla.gif)
-
+</p>
 
 
 Just change `src/portfolio.js` to get your personal portfolio . Feel free to use it as-is or customize it as much as you want.
@@ -93,6 +90,9 @@ Generate a Github personal access token using these [Instructions](https://help.
 
 Set `showGithubProfile` to true or false to show Contact Profile using Github, defaults to false.
 
+Note: Projects section only show pinned items of your Github. If you are seeing [this](https://i.imgur.com/Hj6mu1K.png), please follow this
+[Instructions](https://docs.github.com/en/enterprise/2.13/user/articles/pinning-items-to-your-profile).
+
 ## Change and customize every section according to your need.
 
 #### Personalize page content in `/src/portfolio.js` & modify it as per your need.
@@ -109,7 +109,33 @@ const greeting = {
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
 };
 
-Similarly, you can also update other sections like skills, projects, certificates, workExperience, socialMediaLinks, etc.
+const socialMediaLinks = {
+  /* Your Social Media Link */
+  github: "https://github.com/bharatkammakatla",
+  linkedin: "https://www.linkedin.com/in/bharatkammakatla/",
+  gmail: "bharatkammakatla@gmail.com"
+};
+
+Similarly, you can also update all other sections.
+
+const skillsSection = { .... }
+
+const techStack = { .... }
+
+const workExperience = { .... } 
+
+const openSource = { .... } 
+
+const bigProjects = { .... }
+
+const achievementSection = { .... }
+
+const blogSection = { .... }
+
+const contactInfo = { .... }
+
+const twitterDetails = { ... }
+
 ```
 
 #### Using Emojis
@@ -146,6 +172,7 @@ For more information, read [hosting on Netlify](https://create-react-app.dev/doc
 - [apollo-boost](https://www.apollographql.com/docs/react/get-started/) 
 - [react-twitter-embed](https://github.com/saurabhnemade/react-twitter-embed)
 - [react-easy-emoji](https://github.com/appfigures/react-easy-emoji)
+- [react-headroom](https://github.com/KyleAMathews/react-headroom)
 - [color-thief](https://github.com/lokesh/color-thief)
 
 ## Illustrations
