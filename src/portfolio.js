@@ -267,6 +267,11 @@ const blogSection = {
       description: "Are you interested to know how machines detect human emotions? If so, check out here !"
     },
     {
+      url: "https://blog.bharatkammakatla.com/steps-to-build-a-selenium-java-framework-ckdsi73xg005ga9s1defhemfz",
+      title: "Steps to build a Selenium Java Framework",
+      description: "Interested in building a test automation framework? If so, check out here !"
+    },
+    {
       url: "https://medium.com/@bharatkammakatla/basic-end-to-end-scikit-learn-workflow-cd9e9a50491b?source=friends_link&sk=b828ac262c172abd7508efcbd00e5bd3",
       title: "Basic End-to-End Scikit-Learn workflow",
       description: "Do you want to know how a basic end-to-end scikit-learn workflow is implemented ? If so, check out here !"
