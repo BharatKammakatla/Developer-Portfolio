@@ -6,7 +6,6 @@
     border-radius: 5px;
     box-shadow: 0 0 36px rgba(0, 0, 0, 0.1);
     flex: 0 0 30%;
-    cursor: pointer;
 }
 
 .cert-header {
@@ -32,7 +31,7 @@
 .cert-body-subtitle {
     font-size: 17px;
     color: #808080;
-    margin:10px;
+    margin: 10px;
 }
 
 .content {
@@ -96,14 +95,6 @@
 
 .fadeIn-top{
   top: 20%;
-}
-
-
-@media (max-width:1380px){
-}
-
-@media (max-width:768px){
-    
 }
 
 @media screen and (max-width: 480px) and (min-width: 300px) {

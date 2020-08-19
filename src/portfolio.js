@@ -265,7 +265,16 @@ const certifications = {
 				"https://www.udemy.com/certificate/UC-fd118b7d-7436-442c-a7f8-5077c432d596/",
 			alt_name: "Zero To Mastery",
 			color_code: "#FFFDDD"
-		},
+    },
+    {
+			title: "Data Science",
+			subtitle: "- IBM",
+			logo_path: "ibm_logo.png",
+			certificate_link:
+				"https://coursera.org/share/893f2210f39f5a60d0463b19b469b808",
+			alt_name: "IBM",
+			color_code: "#E3F1FA"
+    },
 		{
 			title: "Cloud Admin & Automation",
 			subtitle: "- Experitest",
