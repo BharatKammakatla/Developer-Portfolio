@@ -1,12 +1,14 @@
 .cert-card {
+    width: 30%;
     display: inline-block;
     justify-content:center;
     align-items: center;
     text-align: center;
+    border: 1px solid #d9dbdf;
     border-radius: 5px;
-    box-shadow: 0 0 36px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 5px #d9dbdf;
+    margin-bottom: 30px;
     flex: 0 0 30%;
-    cursor: pointer;
 }
 
 .cert-header {
@@ -30,7 +32,7 @@
 }
 
 .cert-body-subtitle {
-    font-size: 17px;
+    font-size: 18px;
     color: #808080;
     margin:10px;
 }
@@ -40,7 +42,6 @@
   width: 100%;
   margin: auto;
   overflow: hidden;
-  border-radius: 5px 5px 0px 0px;
 }
 
 .content .content-overlay {
@@ -103,11 +104,7 @@
 }
 
 @media (max-width:768px){
-    
-}
-
-@media screen and (max-width: 480px) and (min-width: 300px) {
-  .cert-body-title {
-    font-size: 18px;
-  }
+    .cert-card {
+        width: 100%;
+    }
 }
