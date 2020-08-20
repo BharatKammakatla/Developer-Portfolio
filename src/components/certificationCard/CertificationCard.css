@@ -3,7 +3,7 @@
     justify-content:center;
     align-items: center;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 4px;
     box-shadow: 0 0 36px rgba(0, 0, 0, 0.1);
     flex: 0 0 30%;
 }
