@@ -1,5 +1,5 @@
 .blog-container {
-  border-radius: 10px;
+  border-radius: 6px;
   color: #586069;
   background-color: #fff;
   box-shadow: 0 0 36px rgba(0, 0, 0, 0.1);
@@ -47,7 +47,7 @@
   top: 0;
   right: 0;
   background-color: #55198b;
-  border-radius: 0 4px 0 32px;
+  border-radius: 0 6px 0 32px;
 }
 
 .go-arrow {
@@ -61,7 +61,7 @@
   display: block;
   position: relative;
   background-color: transparent;
-  border-radius: 4px;
+  border-radius: 6px;
   text-decoration: none;
   z-index: 0;
   overflow: hidden;

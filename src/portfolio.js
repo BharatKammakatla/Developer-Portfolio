@@ -1,12 +1,11 @@
 ﻿
 /* Change this file to get your personal Portfolio */
 
-// Your Summary And Greeting Section
-
 import emoji from "react-easy-emoji";
 
+// Your Summary And Greeting Section
+
 const greeting = {
-  /* Your Summary And Greeting Section */
   username: "Bharat Kammakatla",
   title: "Hi all, I'm Bharat",
   subTitle: emoji("Test Automation Engineer 👨‍💻 | Data Science Enthusiast 📊 | Tech Writer ✍️ "),
@@ -16,7 +15,6 @@ const greeting = {
 // Your Social Media Link
 
 const socialMediaLinks = {
-
   github: "https://github.com/bharatkammakatla",
   linkedin: "https://www.linkedin.com/in/bharatkammakatla",
   gmail: "bharatkammakatla@gmail.com"
@@ -291,7 +289,7 @@ const certifications = {
 			certificate_link:
 				"https://www.vskills.in/certification/40215-certified-selenium-professional-bharat-babu-kammakatla",
 			alt_name: "Vskills",
-			color_code: "#FFF4F4"
+			color_code: "#F6EAEA"
 		},
 		{
 			title: "Python",
@@ -301,6 +299,15 @@ const certifications = {
 				"https://www.udemy.com/certificate/UC-a80d6e7c-e753-421d-bcee-5a7bc1769f28/",
 			alt_name: "Pierian-Data",
 			color_code: "#FEF6E6"
+    },
+    {
+			title: "Selenium Python",
+			subtitle: "- Rahul Shetty",
+			logo_path: "rahulshettyacademy-logo.png",
+			certificate_link:
+				"https://www.udemy.com/certificate/UC-e4b66abd-18c6-4bfa-9132-ab22d2bf7ef7/",
+			alt_name: "RahulShettyAcademy",
+			color_code: "#FDE9EA"
 		}
 	]
 };
