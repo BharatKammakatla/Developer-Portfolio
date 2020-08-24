@@ -17,7 +17,8 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/bharatkammakatla",
   linkedin: "https://www.linkedin.com/in/bharatkammakatla",
-  gmail: "bharatkammakatla@gmail.com"
+  gmail: "bharatkammakatla@gmail.com",
+  twitter: "https://twitter.com/Bharat__K"
 };
 
 // Your Skills Section
