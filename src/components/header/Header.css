@@ -2,7 +2,7 @@
 
 .header {
   max-width: 100%;
-  padding: 5px 20px;
+  padding: 0px 20px;
   margin: 0px auto;
   background-color: #fff;
 }
@@ -44,6 +44,7 @@
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   padding: 0 10px;
+  color: #001C55;
 }
 
 /* menu */
