@@ -40,6 +40,14 @@
   line-height: 40px;
 }
 
+/* newly added block - start */
+.greeting-image-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* newly added block - end */
+
 .greeting-image-div > img {
   max-width: 100%;
   height: auto;

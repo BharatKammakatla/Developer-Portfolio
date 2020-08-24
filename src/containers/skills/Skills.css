@@ -10,6 +10,14 @@
   margin-bottom: 30px;
 }
 
+/* newly added block - start */
+.skills-image-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* newly added block - end */
+
 .skills-image-div > img {
   max-width: 100%;
   height: auto;
