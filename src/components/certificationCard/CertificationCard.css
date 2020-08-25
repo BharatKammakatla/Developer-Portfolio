@@ -3,14 +3,14 @@
     justify-content:center;
     align-items: center;
     text-align: center;
-    border-radius: 6px;
+    border-radius: 10px;
     box-shadow: 0 0 36px rgba(0, 0, 0, 0.1);
     flex: 0 0 30%;
 }
 
 .cert-header {
     margin: 0px;
-    border-radius: 6px 6px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .logo_img {
@@ -39,7 +39,7 @@
   width: 100%;
   margin: auto;
   overflow: hidden;
-  border-radius: 6px 6px 0px 0px;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .content .content-overlay {
