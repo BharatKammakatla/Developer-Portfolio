@@ -70,3 +70,8 @@
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
+
+.repo-languages {
+  margin-left: auto;
+  margin-right: 0px;
+}

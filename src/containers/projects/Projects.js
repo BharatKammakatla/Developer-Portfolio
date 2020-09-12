@@ -41,17 +41,8 @@ export default function Projects() {
                 ... on Repository {
                   name
                   description
-                  forkCount
-                  stargazers {
-                    totalCount
-                  }
                   url
                   id
-                  diskUsage
-                  primaryLanguage {
-                    name
-                    color
-                  }
                 }
               }
             }
