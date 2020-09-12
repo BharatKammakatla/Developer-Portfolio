@@ -9,7 +9,7 @@ const greeting = {
   username: "Bharat Kammakatla",
   title: "Hi all, I'm Bharat",
   subTitle: emoji("Test Automation Engineer 👨‍💻 | Data Science Enthusiast 📊 | Tech Writer ✍️ "),
-  resumeLink: "https://drive.google.com/file/d/1DbIWFiA1l_5aVrBcbkMsimHM5h5xCKtn/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/13S3CqGorqRDTwPkd-HEnN83F-IllLVPV/view?usp=sharing"
 };
 
 // Your Social Media Link
@@ -257,33 +257,6 @@ const achievementSection = {
 const certifications = {
 	certifications: [
 		{
-			title: "ML and DS",
-			subtitle: "- Andrei Neagoie",
-			logo_path: "zero-to-mastery.png",
-			certificate_link:
-				"https://www.udemy.com/certificate/UC-fd118b7d-7436-442c-a7f8-5077c432d596/",
-			alt_name: "Zero To Mastery",
-			color_code: "#FFFDDD"
-    },
-    {
-			title: "Data Science",
-			subtitle: "- IBM",
-			logo_path: "ibm_logo.png",
-			certificate_link:
-				"https://coursera.org/share/893f2210f39f5a60d0463b19b469b808",
-			alt_name: "IBM",
-			color_code: "#E3F1FA"
-    },
-		{
-			title: "Cloud Admin & Automation",
-			subtitle: "- Experitest",
-			logo_path: "seetest-logo.png",
-			certificate_link:
-				"https://drive.google.com/file/d/1qhh1ZUBB2VPrOaT6bNgiJ5Y2sHmCjvMg/view?usp=drivesdk",
-			alt_name: "Experitest",
-			color_code: "#F0FFDD"
-		},
-		{
 			title: "Selenium",
 			subtitle: "- Vskills",
 			logo_path: "vskills-logo.png",
@@ -291,6 +264,15 @@ const certifications = {
 				"https://www.vskills.in/certification/40215-certified-selenium-professional-bharat-babu-kammakatla",
 			alt_name: "Vskills",
 			color_code: "#F6EAEA"
+    },
+    {
+			title: "Cloud Admin & Automation",
+			subtitle: "- Experitest",
+			logo_path: "seetest-logo.png",
+			certificate_link:
+				"https://drive.google.com/file/d/1qhh1ZUBB2VPrOaT6bNgiJ5Y2sHmCjvMg/view?usp=drivesdk",
+			alt_name: "Experitest",
+			color_code: "#F0FFDD"
 		},
 		{
 			title: "Python",
@@ -309,7 +291,25 @@ const certifications = {
 				"https://www.udemy.com/certificate/UC-e4b66abd-18c6-4bfa-9132-ab22d2bf7ef7/",
 			alt_name: "RahulShettyAcademy",
 			color_code: "#FDE9EA"
-		}
+    },
+    {
+			title: "Data Science",
+			subtitle: "- IBM",
+			logo_path: "ibm_logo.png",
+			certificate_link:
+				"https://coursera.org/share/893f2210f39f5a60d0463b19b469b808",
+			alt_name: "IBM",
+			color_code: "#E3F1FA"
+    },
+    {
+			title: "ML and DS",
+			subtitle: "- Andrei Neagoie",
+			logo_path: "zero-to-mastery.png",
+			certificate_link:
+				"https://www.udemy.com/certificate/UC-fd118b7d-7436-442c-a7f8-5077c432d596/",
+			alt_name: "Zero To Mastery",
+			color_code: "#FFFDDD"
+    }
 	]
 };
 
@@ -327,14 +327,14 @@ const blogSection = {
       description: "Interested in building a test automation framework with selenium and python? If so, check out here !"
     },
     {
-      url: "https://blog.bharatkammakatla.com/face-expression-recognition-using-keras-and-cnns-ckbevmufo0195dis1dfs10kt1",
-      title: "Building a Machine Learning model to detect human emotions",
-      description: "Are you interested to know how machines detect human emotions? If so, check out here !"
-    },
-    {
       url: "https://blog.bharatkammakatla.com/steps-to-build-a-selenium-java-framework-ckdsi73xg005ga9s1defhemfz",
       title: "Steps to build a Selenium Java Automation Framework",
       description: "Interested in building a test automation framework with selenium and java? If so, check out here !"
+    },
+    {
+      url: "https://blog.bharatkammakatla.com/face-expression-recognition-using-keras-and-cnns-ckbevmufo0195dis1dfs10kt1",
+      title: "Building a Machine Learning model to detect human emotions",
+      description: "Are you interested to know how machines detect human emotions? If so, check out here !"
     },
     {
       url: "https://medium.com/@bharatkammakatla/basic-end-to-end-scikit-learn-workflow-cd9e9a50491b?source=friends_link&sk=b828ac262c172abd7508efcbd00e5bd3",
