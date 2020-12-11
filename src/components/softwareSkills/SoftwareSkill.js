@@ -12,7 +12,7 @@ export default function SoftwareSkill() {
               <li className="software-skill-inline" name={skills.skillName}>
                 <span
                       className="iconify"
-                      data-icon={skills.fontAwesomeClassname}
+                      data-icon={skills.classname}
                       style={skills.style}
                       data-inline="false"
                     ></span>

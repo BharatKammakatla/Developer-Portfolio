@@ -37,42 +37,50 @@ const skillsSection = {
   softwareSkills: [
     {
       skillName: "python",
-      fontAwesomeClassname: "logos:python",
+      classname: "logos:python",
       style: {
         backgroundColor: "transparent"
       }
     },
     {
       skillName: "java",
-      fontAwesomeClassname: "logos:java",
+      classname: "logos:java",
       style: {
         backgroundColor: "transparent"
       }
     },
     {
       skillName: "selenium",
-      fontAwesomeClassname: "logos:selenium",
+      classname: "logos:selenium",
       style: {
         backgroundColor: "transparent"
       }
     },
     {
       skillName: "cucumber",
-      fontAwesomeClassname: "logos:cucumber",
+      classname: "logos:cucumber",
       style: {
         backgroundColor: "transparent"
       }
     },
     {
       skillName: "appium",
-      fontAwesomeClassname: "logos:appium",
+      classname: "logos:appium",
       style: {
         backgroundColor: "transparent"
       }
     },
     {
+      skillName: "webservices",
+      classname: "dashicons:rest-api",
+      style: {
+        backgroundColor: "transparent",
+        color: "#B7950B"
+      }
+    },
+    {
       skillName: "maven",
-      fontAwesomeClassname: "simple-icons:apachemaven",
+      classname: "simple-icons:apachemaven",
       style: {
         backgroundColor: "transparent",
         color: "#BF0353"
@@ -80,14 +88,14 @@ const skillsSection = {
     },
     {
       skillName: "git",
-      fontAwesomeClassname: "logos:git-icon",
+      classname: "logos:git-icon",
       style: {
         backgroundColor: "transparent"
       }
     },
     {
       skillName: "jenkins",
-      fontAwesomeClassname: "simple-icons:jenkins",
+      classname: "simple-icons:jenkins",
       style: {
         backgroundColor: "transparent",
         color: "#34495E"
@@ -95,21 +103,21 @@ const skillsSection = {
     },
     {
       skillName: "postgres",
-      fontAwesomeClassname: "logos:postgresql",
+      classname: "logos:postgresql",
       style: {
         backgroundColor: "transparent"
       }
     },
     {
       skillName: "tensorflow",
-      fontAwesomeClassname: "logos-tensorflow",
+      classname: "logos-tensorflow",
       style: {
         backgroundColor: "transparent"
       }
     },
     {
       skillName: "keras",
-      fontAwesomeClassname: "simple-icons:keras",
+      classname: "simple-icons:keras",
       style: {
         backgroundColor: "white",
         color: "#D00000"
@@ -117,14 +125,14 @@ const skillsSection = {
     },
     {
       skillName: "flask",
-      fontAwesomeClassname: "simple-icons:flask",
+      classname: "simple-icons:flask",
       style: {
         backgroundColor: "transparent"
       }
     },
     {
       skillName: "reactJS",
-      fontAwesomeClassname: "simple-icons:react",
+      classname: "simple-icons:react",
       style: {
         color: "#61DAFB"
       }
