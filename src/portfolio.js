@@ -29,7 +29,7 @@ const skillsSection = {
   skills: [
     emoji("⚡ Designing and developing Test Automation frameworks using Python and Java"),
     emoji("⚡ End to End automation executions"),
-    emoji("⚡ Working on test automation tools like Selenium, Appium, UFT, Seetest mobile cloud administration, etc"),
+    emoji("⚡ Working on test automation tools like Selenium, Appium, UFT, SoapUI, AutoIT, Katalon Studio, Seetest Mobile Cloud administration, etc"),
     emoji("⚡ Building predictive models to extract insights and make decisions out of data")
   ],
 
@@ -80,10 +80,9 @@ const skillsSection = {
     },
     {
       skillName: "maven",
-      classname: "simple-icons:apachemaven",
+      classname: "vscode-icons:file-type-maven",
       style: {
-        backgroundColor: "transparent",
-        color: "#BF0353"
+        backgroundColor: "transparent"
       }
     },
     {
@@ -95,10 +94,9 @@ const skillsSection = {
     },
     {
       skillName: "jenkins",
-      classname: "simple-icons:jenkins",
+      classname: "vscode-icons:file-type-jenkins",
       style: {
-        backgroundColor: "transparent",
-        color: "#34495E"
+        backgroundColor: "transparent"
       }
     },
     {
