@@ -18,6 +18,7 @@ const socialMediaLinks = {
   github: "https://github.com/bharatkammakatla",
   linkedin: "https://www.linkedin.com/in/bharatkammakatla",
   gmail: "bharatkammakatla@gmail.com",
+  facebook: "https://www.facebook.com/bharat.kammakatla",
   twitter: "https://twitter.com/Bharat__K"
 };
 
