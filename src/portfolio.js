@@ -59,32 +59,10 @@ const skillsSection = {
       },
     },
     {
-      skillName: "selenium",
-      classname: "logos:selenium",
+      skillName: "reactJS",
+      classname: "simple-icons:react",
       style: {
-        backgroundColor: "transparent",
-      },
-    },
-    {
-      skillName: "cucumber",
-      classname: "logos:cucumber",
-      style: {
-        backgroundColor: "transparent",
-      },
-    },
-    {
-      skillName: "appium",
-      classname: "logos:appium",
-      style: {
-        backgroundColor: "transparent",
-      },
-    },
-    {
-      skillName: "webservices",
-      classname: "dashicons:rest-api",
-      style: {
-        backgroundColor: "transparent",
-        color: "#B7950B",
+        color: "#61DAFB",
       },
     },
     {
@@ -137,13 +115,6 @@ const skillsSection = {
         backgroundColor: "transparent",
       },
     },
-    {
-      skillName: "reactJS",
-      classname: "simple-icons:react",
-      style: {
-        color: "#61DAFB",
-      },
-    },
   ],
 };
 
@@ -153,7 +124,7 @@ const techStack = {
   viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Test Automation", //Insert stack or technology you have experience in
+      Stack: "Web Development", //Insert stack or technology you have experience in
       progressPercentage: "90%", //Insert relative proficiency in percentage
     },
     {
