@@ -118,26 +118,6 @@ const skillsSection = {
   ],
 };
 
-// Your top 3 proficient stacks/tech experience
-
-const techStack = {
-  viewSkillBars: false, //Set it to true to show Proficiency Section
-  experience: [
-    {
-      Stack: "Web Development", //Insert stack or technology you have experience in
-      progressPercentage: "90%", //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Data Science", //Insert stack or technology you have experience in
-      progressPercentage: "70%", //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "80%",
-    },
-  ],
-};
-
 // Your top 3 work experiences
 
 const workExperiences = {
@@ -181,83 +161,6 @@ const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "BharatKammakatla", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to false
-};
-
-// Some Big Projects You have worked with your company
-
-const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-  projects: [
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/",
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/",
-    },
-  ],
-};
-
-// Your Achievement
-
-const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
-  achivementsCards: [
-    {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      footerLink: [
-        {
-          name: "Certification",
-          url:
-            "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing",
-        },
-        {
-          name: "Award Letter",
-          url:
-            "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing",
-        },
-        {
-          name: "Google Code-in Blog",
-          url:
-            "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html",
-        },
-      ],
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url:
-            "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en",
-        },
-      ],
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        { name: "Certification", url: "" },
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/",
-        },
-      ],
-    },
-  ],
 };
 
 // Your certifications
@@ -360,35 +263,6 @@ const blogSection = {
   ],
 };
 
-// Talks Sections
-
-const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
-
-  talks: [
-    {
-      title: "your title",
-      subtitle: "your subtitle",
-      slides_url: "Your slides url here",
-      event_url: "your event url",
-      image: "image url",
-    },
-  ],
-};
-
-// Podcast Section
-
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: ["Paste your podcast url here"],
-};
-
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
@@ -397,25 +271,13 @@ const contactInfo = {
   email_address: "bharatkammakatla@gmail.com",
 };
 
-//Twitter Section
-
-const twitterDetails = {
-  userName: "Bharat__K", //Replace "twitter" with your twitter username without @
-};
-
 export {
   greeting,
   socialMediaLinks,
   skillsSection,
-  techStack,
   workExperiences,
   openSource,
-  bigProjects,
-  achievementSection,
   blogSection,
-  talkSection,
-  podcastSection,
   contactInfo,
-  twitterDetails,
   certifications,
 };
