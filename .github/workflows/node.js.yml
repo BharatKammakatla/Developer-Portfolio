@@ -1,7 +1,8 @@
 name: Build and Deploy
 env:
   CI: false
-  REACT_APP_GITHUB_TOKEN: ${{ secrets.OPEN_SOURCE_TOKEN }}
+  GITHUB_USERNAME: ${{ github.repository_owner }}
+  REACT_APP_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 on:
   push:
     branches:
