@@ -7,8 +7,6 @@ on:
   push:
     branches:
       - master
-  schedule:
-    - cron: "0 12 * * 1"
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
