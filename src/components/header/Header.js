@@ -36,11 +36,11 @@ function Header() {
             <a href="#achievements">Achievements</a>
           </li>*/}
           <li>
-            <a href="#certs">Certfications</a>
+            <a href="#certs">Certifications</a>
           </li>
-          <li>
+          {/* <li>
             <a href="#blogs">Blogs</a>
-          </li>
+          </li> */}
           {/*<li>
             <a href="#talks">Talks</a>
           </li>*/}

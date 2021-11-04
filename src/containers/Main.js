@@ -20,9 +20,8 @@ export default class Main extends Component {
         <WorkExperience />
         <Projects />
         <Certifications />
-        <Blogs />
+        {/* <Blogs /> */}
         <Profile />
-        <Footer />
         <Top />
       </div>
     );

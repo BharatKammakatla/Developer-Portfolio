@@ -19,6 +19,7 @@ export default function ExperienceCard({ cardInfo }) {
     return descBullets ? descBullets.map((item) => <li className="subTitle">{item}</li>) : null
   };
 
+
   return (
     <div className="experience-card">
       <div style={{background: rgb(colorArrays) }} className="experience-banner">
@@ -30,7 +31,7 @@ export default function ExperienceCard({ cardInfo }) {
         <img crossOrigin={"anonymous"} ref={imgRef} className="experience-roundedimg" src={cardInfo.companylogo} alt={cardInfo.company} onLoad={() => getColorArrays()}/>
       </div>
       <div className="experience-text-details">
-        <h5 className="experience-text-role">{cardInfo.role}</h5>
+        <a href={cardInfo.url} target="_blank" rel="noopener noreferrer"><h5 className="experience-text-role">{cardInfo.role}</h5></a>
         <h5 className="experience-text-date">{cardInfo.date}</h5>
         <p className="subTitle experience-text-desc">{cardInfo.desc}</p>
         <ul>
