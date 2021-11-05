@@ -2,7 +2,7 @@
   "homepage": "https://fedecontegrand.github.io/",
   "name": "bharatkammakatla.com",
   "version": "0.1.0",
-  "private": true,
+  "private": "false",
   "dependencies": {
     "colorthief": "^2.3.0",
     "gh-pages": "^2.2.0",
