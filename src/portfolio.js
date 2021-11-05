@@ -265,8 +265,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+852 51606863",
-  email_address: "bharatkammakatla@gmail.com",
+  number: "+54 264 510 0051",
+  email_address: "fede.contegrand@gmail.com",
 };
 
 export {
