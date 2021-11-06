@@ -26,9 +26,9 @@ function Header() {
               <a href="#experience">Work Experiences</a>
             </li>
           }
-          <li>
+          {/* <li>
             <a href="#opensource">Projects</a>
-          </li>
+          </li> */}
           {/*<li>
             <a href="#projects">Projects</a>
           </li>*/}
