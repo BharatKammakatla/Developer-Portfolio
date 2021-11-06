@@ -11,7 +11,7 @@ const greeting = {
     "Full Stack Developer 👨‍💻 | Industrial Engineer 🔧 | React ⚛️ & Node 📡"
     ),
   resumeLink:
-    "https://drive.google.com/file/d/1gsPhoU4Dg-bFSlf3K-SFrKHO0XTBpS0i/view?usp=sharing",
+    "https://drive.google.com/drive/folders/1BTfA7Pmqzo2qDOIiWhFLiiSfHRCwysj2?usp=sharing",
 };
 
 // Your Social Media Link
