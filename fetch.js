@@ -6,9 +6,9 @@ require("dotenv").config();
 const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
 const GITHUB_USERNAME = process.env.GITHUB_USERNAME;
 
-if (GITHUB_USERNAME === undefined) {
-  throw "Github Username was found to be undefined. Please set an Environment variable.";
-}
+// if (GITHUB_USERNAME === undefined) {
+//   throw "Github Username was found to be undefined. Please set an Environment variable.";
+// }
 
 console.log(`fetching profile for fedecontegrand`);
 var data = JSON.stringify({
