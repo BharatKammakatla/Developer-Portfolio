@@ -10,11 +10,11 @@ if (GITHUB_USERNAME === undefined) {
   throw "Github Username was found to be undefined. Please set an Environment variable.";
 }
 
-console.log(`fetching profile for ${GITHUB_USERNAME}`);
+console.log(`fetching profile for fedecontegrand`);
 var data = JSON.stringify({
   query: `
  {
-   user(login:"${GITHUB_USERNAME}") { 
+   user(login:"fedecontegrand") { 
      name
      bio
      isHireable
@@ -52,7 +52,7 @@ const default_options = {
   port: 443,
   method: "POST",
   headers: {
-    Authorization: `Bearer ${GITHUB_TOKEN}`,
+    Authorization: `Bearer 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`,
     "User-Agent": "Node",
   },
 };
