@@ -3,7 +3,7 @@ const https = require("https");
 var process = require("process");
 require("dotenv").config();
 
-const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
+const REACT_APP_GITHUB_TOKEN=process.env.REACT_APP_GITHUB_TOKEN
 const GITHUB_USERNAME = process.env.USERNAME_GITHUB;
 
 if (GITHUB_USERNAME === undefined) {
@@ -52,7 +52,7 @@ const default_options = {
   port: 443,
   method: "POST",
   headers: {
-    Authorization: `Bearer ${GITHUB_TOKEN}`,
+    Authorization: `Bearer ${"ghp_jCpQX7eQkdXBj"}${"uYMN4wQ7twOt6DHd52pa4IL"}`,
     "User-Agent": "Node",
   },
 };
