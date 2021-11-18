@@ -25,6 +25,7 @@ jobs:
       uses: actions/setup-node@v2
       env: 
         REACT_APP_GITHUB_TOKEN: ${{secrets.REACT_APP_GITHUB_TOKEN}}
+        USERNAME_GITHUB: ${{secrets.USERNAME_GITHUB}}
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
