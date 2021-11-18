@@ -19,14 +19,16 @@ jobs:
         node-version: [12.x, 14.x, 16.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
-  steps:
-
-  - uses: actions/checkout@v2
-  - name: Use Node.js
-    uses: actions/setup-node@v2
-    with:
+steps:
+- uses: actions/checkout@v2
+- name: Use Node.js
+  uses: actions/setup-node@v2
+  with:
+    always-auth: true
     node-version: '12.x'
-    - name: Install dependencies
-    run: npm ci
-    env: 
-      REACT_APP_GITHUB_TOKEN:{{secrets.REACT_APP_GITHUB_TOKEN}}
+    registry-url: https://registry.npmjs.org
+    scope: '@octocat'
+- name: Install dependencies
+  run: npm ci
+  env:
+    REACT_APP_GITHUB_TOKEN: ${{secrets.REACT_APP_GITHUB_TOKEN}}
