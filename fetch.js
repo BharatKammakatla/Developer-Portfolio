@@ -52,7 +52,7 @@ const default_options = {
   port: 443,
   method: "POST",
   headers: {
-    Authorization: `token ${"ghp_jCpQX7eQkdXBjuYMN4"}${"wQ7twOt6DHd52pa4IL"}`,
+    Authorization: `token ${REACT_APP_GITHUB_TOKEN}`,
     "User-Agent": "Node",
   },
 };
