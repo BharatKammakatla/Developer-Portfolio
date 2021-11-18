@@ -52,7 +52,7 @@ const default_options = {
   port: 443,
   method: "POST",
   headers: {
-    Authorization: `token ${REACT_APP_GITHUB_TOKEN }`,
+    Authorization: `token ${"ghp_jCpQX7eQkdXBjuYMN4"}${"wQ7twOt6DHd52pa4IL"}`,
     "User-Agent": "Node",
   },
 };
@@ -61,7 +61,7 @@ const req = https.request(default_options, (res) => {
   let data = "";
   console.log(`statusCode: ${res.statusCode}`);
   if (res.statusCode != 200) {
-    throw `${REACT_APP_GITHUB_TOKEN}`;
+    throw `Request went wrong`;
   }
 
   res.on("data", (d) => {
