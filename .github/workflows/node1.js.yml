@@ -28,10 +28,10 @@ jobs:
         cache: 'npm'
     - run: npm ci
       env: 
-        TOKEN: ${{secrets.REACT_APP_GITHUB_TOKEN}}
+        TOKEN: ${{secrets.TOKEN}}
         USERNAME_GITHUB: ${{secrets.USERNAME_GITHUB}}
     - run: npm run build --if-present
       env: 
-        TOKEN: ${{secrets.REACT_APP_GITHUB_TOKEN}}
+        TOKEN: ${{secrets.TOKEN}}
         USERNAME_GITHUB: ${{secrets.USERNAME_GITHUB}}
     - run: npm test
