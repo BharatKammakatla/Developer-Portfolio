@@ -35,7 +35,7 @@ const skillsSection = {
     emoji(
       "⚡ Designing and developing intuitives UI using React, Redux, SASS, Chakra UI, etc.."
     ),
-    emoji("⚡ Developing fast and reliables APIs with NodeJS and Express."),
+    emoji("⚡ Developing fast and reliables APIs with NodeJS and Express"),
     emoji("⚡ Communication to PostgreSQL's databases through Sequelize"),
     emoji("⚡ Focused on develop mantainable and clean code"),
   ],
