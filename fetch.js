@@ -3,18 +3,18 @@ const https = require("https");
 var process = require("process");
 require("dotenv").config();
 
-const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
-const GITHUB_USERNAME = process.env.GITHUB_USERNAME;
+const REACT_APP_GITHUB_TOKEN=process.env.TOKEN
+const GITHUB_USERNAME = process.env.USERNAME_GITHUB;
 
 if (GITHUB_USERNAME === undefined) {
   throw "Github Username was found to be undefined. Please set an Environment variable.";
 }
 
-console.log(`fetching profile for ${GITHUB_USERNAME}`);
+console.log(`fetching profile for fedecontegrand`);
 var data = JSON.stringify({
   query: `
  {
-   user(login:"${GITHUB_USERNAME}") { 
+   user(login:"fedecontegrand") { 
      name
      bio
      isHireable
@@ -52,7 +52,7 @@ const default_options = {
   port: 443,
   method: "POST",
   headers: {
-    Authorization: `Bearer ${GITHUB_TOKEN}`,
+    Authorization: `token ${REACT_APP_GITHUB_TOKEN}`,
     "User-Agent": "Node",
   },
 };
@@ -61,7 +61,7 @@ const req = https.request(default_options, (res) => {
   let data = "";
   console.log(`statusCode: ${res.statusCode}`);
   if (res.statusCode != 200) {
-    throw "The request to Github didn't suceed. Maybe check Github Token?";
+    throw `Request went wrong`;
   }
 
   res.on("data", (d) => {

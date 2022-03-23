@@ -108,6 +108,9 @@
     padding: 1.5rem;
     margin-top: 2rem;
 }
+.experience-text-details > a{
+    text-decoration: none;
+}
 
 /* Media Query */
 

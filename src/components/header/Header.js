@@ -8,7 +8,7 @@ function Header() {
   return (
     <Headroom>
       <header className="header">
-        <a href="" className="logo">
+        <a href="/" className="logo">
           <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
@@ -26,9 +26,9 @@ function Header() {
               <a href="#experience">Work Experiences</a>
             </li>
           }
-          <li>
+          {/* <li>
             <a href="#opensource">Projects</a>
-          </li>
+          </li> */}
           {/*<li>
             <a href="#projects">Projects</a>
           </li>*/}
@@ -36,11 +36,11 @@ function Header() {
             <a href="#achievements">Achievements</a>
           </li>*/}
           <li>
-            <a href="#certs">Certfications</a>
+            <a href="#certs">Certifications</a>
           </li>
-          <li>
+          {/* <li>
             <a href="#blogs">Blogs</a>
-          </li>
+          </li> */}
           {/*<li>
             <a href="#talks">Talks</a>
           </li>*/}
