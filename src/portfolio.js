@@ -8,10 +8,10 @@ const greeting = {
   username: "Bharat Kammakatla",
   title: "Hi all, I'm Bharat",
   subTitle: emoji(
-    "Front End Developer 👨‍💻 | Test Automation Engineer 🤖 | Tech Writer ✍️ "
+    "Applications Developer 👨‍💻 | Automation Engineer 🤖 | Tech Writer ✍️ "
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1gsPhoU4Dg-bFSlf3K-SFrKHO0XTBpS0i/view?usp=sharing",
+    "https://docs.google.com/document/d/1LVBWauoSNFUP91jLR4-zKExI1CGKkZa_/edit?usp=share_link&ouid=100223492053731464282&rtpof=true&sd=true",
 };
 
 // Your Social Media Link
@@ -121,35 +121,21 @@ const skillsSection = {
 // Your top 3 work experiences
 
 const workExperiences = {
-  viewExperiences: false, //Set it to true to show workExperiences Section
+  viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      ],
+      role: "Associate Engineer",
+      company: "Cognizant",
+      companylogo: require("./assets/images/cognizant-logo.png"),
+      date: "Aug 2022 – Present",
+      desc: "Applications development and support of Java applications. Design and develop automation solutions for QA and OPS teams.",
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "IT Analyst",
+      company: "Tata Consultancy Services",
+      companylogo: require("./assets/images/tcs-logo.png"),
+      date: "Feb 2016 – Jul 2022",
+      desc: "Design, develop and maintain enterprise level Test Automation frameworks.",
     },
   ],
 };
@@ -232,29 +218,25 @@ const blogSection = {
 
   blogs: [
     {
-      url:
-        "https://blog.bharatkammakatla.com/selenium-python-automation-framework-how-to-build-cke5vij9p012h9ds1fsaocyax",
+      url: "https://bharatkammakatla.hashnode.dev/selenium-python-automation-framework-how-to-build",
       title: "How to build a Selenium Python Automation Framework",
       description:
         "Interested in building a test automation framework with selenium and python? If so, check out here !",
     },
     {
-      url:
-        "https://blog.bharatkammakatla.com/steps-to-build-a-selenium-java-framework-ckdsi73xg005ga9s1defhemfz",
+      url: "https://bharatkammakatla.hashnode.dev/steps-to-build-a-selenium-java-framework-ckdsi73xg005ga9s1defhemfz",
       title: "Steps to build a Selenium Java Automation Framework",
       description:
         "Interested in building a test automation framework with selenium and java? If so, check out here !",
     },
     {
-      url:
-        "https://blog.bharatkammakatla.com/face-expression-recognition-using-keras-and-cnns-ckbevmufo0195dis1dfs10kt1",
+      url: "https://bharatkammakatla.hashnode.dev/face-expression-recognition-using-keras-and-cnns-ckbevmufo0195dis1dfs10kt1",
       title: "Building a Machine Learning model to detect human emotions",
       description:
         "Are you interested to know how machines detect human emotions? If so, check out here !",
     },
     {
-      url:
-        "https://medium.com/@bharatkammakatla/basic-end-to-end-scikit-learn-workflow-cd9e9a50491b?source=friends_link&sk=b828ac262c172abd7508efcbd00e5bd3",
+      url: "https://medium.com/@bharatkammakatla/basic-end-to-end-scikit-learn-workflow-cd9e9a50491b?source=friends_link&sk=b828ac262c172abd7508efcbd00e5bd3",
       title: "Basic End-to-End Scikit-Learn workflow",
       description:
         "Do you want to know how a basic end-to-end scikit-learn workflow is implemented ? If so, check out here !",
