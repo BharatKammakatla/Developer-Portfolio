@@ -8,7 +8,7 @@ const greeting = {
   username: "Bharat Kammakatla",
   title: "Hi all, I'm Bharat",
   subTitle: emoji(
-    "Applications Developer 👨‍💻 | Automation Engineer 🤖 | Tech Writer ✍️ "
+    "Applications Developer 👨‍💻 | Test Automation Engineer ⚙️ | Tech Writer ✍️ "
   ),
   resumeLink:
     "https://docs.google.com/document/d/1LVBWauoSNFUP91jLR4-zKExI1CGKkZa_/edit?usp=share_link&ouid=100223492053731464282&rtpof=true&sd=true",
@@ -29,17 +29,17 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What i do",
   subTitle:
-    "HANDLING ALL TEST AUTOMATION ACTIVITIES AND EXPLORING DATA SCIENCE",
+    "HANDLING ALL APP DEVELOPMENT ACTIVITIES AND EXPLORING DATA SCIENCE",
   skills: [
     emoji(
-      "⚡ Designing and developing Test Automation frameworks using Python and Java"
+      "⚡ Designing and developing enterprise-level applications using React, Node, SQL, Mongo, etc"
     ),
-    emoji("⚡ End to End automation executions"),
+    emoji("⚡ Implementing end-to-end application functionalities."),
     emoji(
-      "⚡ Working on test automation tools like Selenium, Appium, UFT, SoapUI, AutoIT, Katalon Studio, Seetest Mobile Cloud administration, etc"
+      "⚡ Working with development tools like Git, Jenkins, Docker, and cloud services."
     ),
     emoji(
-      "⚡ Building predictive models to extract insights and make decisions out of data"
+      "⚡ Building predictive models to derive insights and support data-driven decisions."
     ),
   ],
 
@@ -124,10 +124,17 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Solution Analyst",
+      company: "Cathay Pacific Airways",
+      companylogo: require("./assets/images/cx-logo.png"),
+      date: "Jul 2024 – Present",
+      desc: "Design, develop, and maintain enterprise-level applications, ensuring high performance and user satisfaction.",
+    },
+    {
       role: "Associate Engineer",
       company: "Cognizant",
       companylogo: require("./assets/images/cognizant-logo.png"),
-      date: "Aug 2022 – Present",
+      date: "Aug 2022 – Jun 2024",
       desc: "Applications development and support of Java applications. Design and develop automation solutions for QA and OPS teams.",
     },
     {
