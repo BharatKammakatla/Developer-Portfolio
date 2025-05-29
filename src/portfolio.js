@@ -93,28 +93,6 @@ const skillsSection = {
         backgroundColor: "transparent",
       },
     },
-    {
-      skillName: "tensorflow",
-      classname: "logos-tensorflow",
-      style: {
-        backgroundColor: "transparent",
-      },
-    },
-    {
-      skillName: "keras",
-      classname: "simple-icons:keras",
-      style: {
-        backgroundColor: "white",
-        color: "#D00000",
-      },
-    },
-    {
-      skillName: "flask",
-      classname: "simple-icons:flask",
-      style: {
-        backgroundColor: "transparent",
-      },
-    },
   ],
 };
 
